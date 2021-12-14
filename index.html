@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portFolio</title>
 
     <!--테일 윈드-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="style/style.css">
+    <!--폰트 어썸-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
 
-</head>
-<body>
-    <section class="container mx-auto relative">
-        <div class="main-box relative mx-auto rounded-3xl bg-gre0en-200 ring-0">
-            <div class="absolute h-full w-3/12 p-4">
-                <div class="w-32 rounded-full overflow-hidden mx-auto">
-                    <img src="./images/profileImg.jpg" alt="">
-                </div>
-            </div>
-            <div class="inner-box h-full bg-blue-200 w-9/12 rounded-3xl left-full relative bg-opacity-50">
-            </div> 
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <section class="main-section container mx-auto relative">
+      <div class="main-box mx-auto rounded-3xl h-full">
+        <div class="top-bar flex items-center justify-between px-3 pt-1">
+          <div></div>
+          <div>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-battery-full"></i>
+          </div>
         </div>
+        <div class="page-box h-full pt-14">
+          <div class="date-box flex flex-col items-center mx-auto">
+            <span class="clock text-6xl">00:00</span>
+            <span class="date"></span>
+          </div>
+          <div class="text-center text-4xl mt-32">
+            <span>안녕하세요.</span> <br />
+            <span>손현수 포트폴리오 입니다.</span>
+          </div>
+          <div class="text-center relative -bottom-56 opacity-30 font-semibold">
+            <span>화면을 미세요</span>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
+  </body>
+  <script src="./script/clock.js"></script>
+  <script src="./script/mainpage.js"></script>
 </html>

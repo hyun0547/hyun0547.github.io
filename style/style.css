@@ -1,20 +1,17 @@
-html{
-    background: url(../images/bg.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+html {
+  background-color: rgb(218, 226, 246);
 }
-.main-box{
-    max-width: 70%;
-    min-width: 800px;
-    height: 500px;
-    top: 50vh;
-    left: 0;
-    transform: translateY(-50%);
-    background-color: rgba(102,127,219,0.5);
+body {
+  height: 100vh;
+  overflow: hidden;
 }
-.inner-box{
-    min-width: 600px;
-    transform: translateX(-100%);
+.main-section {
+  top: 50vh;
+  transform: translateY(-50%);
+}
+.main-box {
+  max-width: 70%;
+  min-width: 800px;
+  height: 650px;
+  background-color: white;
 }
