@@ -9,6 +9,7 @@ html {
 body {
   height: 100vh;
   overflow: hidden;
+  background-color: gray;
 }
 .main-section {
   top: 50vh;
@@ -19,4 +20,8 @@ body {
   min-width: 800px;
   height: 650px;
   background-color: white;
+  box-shadow: 0 17px 20px -18px rgba(0, 0, 0, 1); 
+}
+.page-box{
+    transition: 0.3s;
 }
