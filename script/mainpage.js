@@ -1,7 +1,16 @@
 const mainbox = document.querySelector(".main-box");
 
-mainbox.addEventListener("mousedown", function () {
-  mainbox.addEventListener("mousemove", function () {
-    console.log("asdf");
-  });
-});
+function mouseUpEvent() {
+  mainbox.removeEventListener("mousemove", mouseMoveEvent);
+}
+
+function mouseDownEvent() {
+  mainbox.addEventListener("mousemove", mouseMoveEvent);
+}
+
+function mouseMoveEvent() {
+  console.log("hello");
+}
+
+mainbox.onmouseup = mouseUpEvent;
+mainbox.onmousedown = mouseDownEvent;

@@ -1,5 +1,10 @@
 html {
   background-color: rgb(218, 226, 246);
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 body {
   height: 100vh;
