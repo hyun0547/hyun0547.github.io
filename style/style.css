@@ -36,6 +36,10 @@ body {
   transition: 0.2s;
   opacity: 0.3;
 }
+.home-bottom-icons > p {
+  position: relative;
+  transition: 0.3s;
+}
 .home-bottom-icons > p > img {
   transition: 0.3s;
 }
@@ -48,13 +52,17 @@ body {
   content: attr(data-title);
   background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
-  top: 0;
+  width: 100%;
+  text-align: center;
   visibility: hidden;
+  top: 0px;
   opacity: 0;
   border-radius: 20%;
   font-size: 20px;
+  transition: 0.3s;
 }
 .home-bottom-icons > p:hover::after {
   visibility: visible;
   opacity: 1;
+  top: -35px;
 }
