@@ -1,5 +1,7 @@
 const mainbox = document.querySelector(".main-box"),
-  pageBox = document.querySelector(".main-page-box");
+  mainPageBox = document.querySelector(".main-page-box"),
+  homePageBox = document.querySelector(".home-page-box"),
+  topBarClock = document.querySelector(".top-bar-clock");
 
 var mouseUpX = 0,
   mouseUpY = 0,
@@ -20,6 +22,16 @@ function mousedifChk(mouseDif) {
   return 0;
 }
 
+function topBarSetClock() {
+  const today = new Date();
+  const clock = document.createElement("span");
+  clock.innerText = `${`${today.getHours()}`.padStart(
+    2,
+    "0"
+  )}:${`${today.getMinutes()}`.padStart(2, "0")}`;
+  topBarClock.appendChild(clock);
+}
+
 function mouseUpEvent(e) {
   mainbox.removeEventListener("mousemove", mouseMoveEvent);
   mouseUpX = Number(e.clientX);
@@ -27,13 +39,16 @@ function mouseUpEvent(e) {
   const mouseDif = roundEquation(mouseDownX, mouseDownY, mouseUpX, mouseUpY);
 
   if (mousedifChk(mouseDif)) {
-    pageBox.style.opacity = "0";
-    pageBox.style.transform = "scale(1.5)";
-    pageBox.style.visibility = "hidden";
+    mainPageBox.style.opacity = "0";
+    mainPageBox.style.transform = "scale(1.5)";
+    mainPageBox.style.visibility = "hidden";
+    homePageBox.style.transform = "scale(1)";
+    homePageBox.style.opacity = "1";
+    topBarSetClock();
     init();
   } else {
-    pageBox.style.opacity = "1";
-    pageBox.style.transform = "scale(1)";
+    mainPageBox.style.opacity = "1";
+    mainPageBox.style.transform = "scale(1)";
   }
 }
 
@@ -49,8 +64,8 @@ function mouseMoveEvent(e) {
 
   const mouseDif = roundEquation(mouseDownX, mouseDownY, mouseCurX, mouseCurY);
 
-  pageBox.style.opacity = `${10000 / mouseDif}`;
-  pageBox.style.transform = `scale(${1 + mouseDif * 0.000007})`;
+  mainPageBox.style.opacity = `${10000 / mouseDif}`;
+  mainPageBox.style.transform = `scale(${1 + mouseDif * 0.000007})`;
 }
 
 function MainPageAction() {
