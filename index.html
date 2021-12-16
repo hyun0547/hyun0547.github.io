@@ -25,26 +25,123 @@
   </head>
   <body>
     <section class="main-section container mx-auto relative">
-      <div class="main-box mx-auto rounded-3xl h-full overflow-hidden">
-        <div class="top-bar flex items-center justify-between px-3 pt-1">
+      <div class="main-box mx-auto rounded-3xl h-full overflow-hidden relative">
+        <div
+          class="
+            top-bar
+            flex
+            items-center
+            justify-between
+            px-3
+            pt-1
+            absolute
+            w-full
+            z-10
+          "
+        >
           <div></div>
           <div>
             <i class="fas fa-wifi"></i>
             <i class="fas fa-battery-full"></i>
           </div>
         </div>
-        <div class="page-box h-full pt-14">
+
+        <div
+          class="
+            main-page-box
+            h-full
+            pt-12
+            absolute
+            w-full
+            h-full
+            overflow-hidden
+            hidden
+          "
+        >
           <div class="date-box flex flex-col items-center mx-auto">
             <span class="clock text-6xl">00:00</span>
             <span class="date"></span>
           </div>
+          <div class="intro-box text-center text-4xl mt-32"></div>
+          <div
+            class="text-center relative -bottom-56 opacity-30 font-semibold"
+          ></div>
+          <div class="text text-center absolute bottom-20 w-full">
+            <span>화면을 미세요</span>
+          </div>
+        </div>
+
+        <div
+          class="home-page-box h-full pt-14 bg-blue-200 relative w-full hidden"
+        >
           <div class="text-center text-4xl mt-32">
             <span>안녕하세요.</span> <br />
             <span>손현수 포트폴리오 입니다.</span>
+            <div
+              class="
+                home-bottom-icons
+                px-10
+                flex
+                justify-between
+                absolute
+                w-full
+                bottom-24
+              "
+            >
+              <p data-title="연락처">
+                <img class="w-16" src="./images/pngwing.com.png" alt="#" />
+              </p>
+              <p
+                onclick="window.open('mailto:hyun0547@gmail.com', '_blank')"
+                data-title="메일 보내기"
+              >
+                <img
+                  class="w-16"
+                  src="./images/KEY0.CC-Email-Icon-Android-Application-Icons-Softiconsm-Android-Email-App-Icon.png"
+                  alt="#"
+                />
+              </p>
+              <p
+                data-title="위키"
+                onclick="window.open('https://wiken.io/ken/1111', '_blank')"
+              >
+                <img
+                  class="w-16"
+                  src="./images/KEY0.CC-57-96k-Samsung-Internet-Samsung-Internet-App-Icon.png"
+                  alt=""
+                />
+              </p>
+              <p data-title="프로필">
+                <img
+                  class="w-16"
+                  src="./images/Camera_Moto_30013.png"
+                  alt="#"
+                />
+              </p>
+            </div>
           </div>
-          <div class="text-center relative -bottom-56 opacity-30 font-semibold">
-            <span>화면을 미세요</span>
-          </div>
+        </div>
+
+        <div class="profile-page-box h-full pt-14 bg-red-200 relative w-full">
+          <div></div>
+        </div>
+
+        <div
+          class="
+            bottom-dock
+            absolute
+            flex
+            items-center
+            w-full
+            justify-between
+            px-20
+            py-3
+            z-10
+          "
+        >
+          <i class="fas fa-bars fa-lg"></i>
+          <i class="far fa-circle fa-lg"></i>
+          <i class="fas fa-chevron-left fa-lg"></i>
         </div>
       </div>
     </section>
