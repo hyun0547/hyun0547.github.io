@@ -1,0 +1,381 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* scoredream font */
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 100;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 200;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.ttf') format("truetype");
+    font-display: swap;
+}
+
+
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'SCoreDream', sans-serif;
+    background: #fff;
+    color: #181818;
+    width: 100%;
+    min-height: 100vh;
+    font-size: 18px;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.leftArea {
+    background: #181818;
+    color: #fff;
+    width: 475px;
+    min-height: 100vh;
+    padding: 5em 2em;
+    flex-shrink: 0;
+}
+
+/* leftArea */
+.leftArea .tit {
+    font-size: 1.5em;
+    margin-bottom: 0.9em;
+    padding-bottom: 0.5em;
+    position: relative;
+    font-weight: 500;
+}
+.leftArea .tit::after {
+    content: "";
+    display: block;
+    background: #fff;
+    height: 2px;
+    width: 8%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.leftArea .txtArea {
+    width: 100%;
+}
+.leftArea .txtArea ul {
+    width: 100%;
+}
+.leftArea .txtArea ul li {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+.leftArea .txtArea ul li span {
+    display: block;
+    padding: 0.1em 0 0;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+/* profile */
+.leftArea .profile {margin-bottom: 5em;}
+.leftArea .profile .imgArea {
+    width: 50%;
+    height: 0;
+    padding-bottom: 50%;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 2em;
+}
+.leftArea .profile .imgArea img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* education */
+.leftArea .education {margin-bottom: 5em;}
+
+
+
+/* rightArea */
+.rightArea {
+    background-color: #fff;
+    min-height: 100vh;
+    padding: 5em 2em;
+    width: calc(100% - 475px);
+}
+.rightArea .tit {
+    font-size: 1.7em;
+    margin-bottom: 1em;
+    font-weight: 500;
+    padding-left: 1em;
+    position: relative;
+}
+.rightArea .tit::before {
+    content: "#";
+    font-family: 'Cabin', sans-serif;
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: linear-gradient(to right top, #000000 0%, #b1b1b1 55%, #e326df 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.rightArea .tit2 {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    font-weight: 500;
+    padding-left: 1em;
+    position: relative;
+}
+.rightArea .tit2::before {
+    content: "#";
+    font-family: 'Cabin', sans-serif;
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: linear-gradient(to right top, #000000 0%, #b1b1b1 55%, #e326df 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* info */
+.rightArea .info {
+    padding: 0 1em 3em;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 3em;
+}
+.rightArea .info .infoArea {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.rightArea .info .infoArea .s1 {
+    display: block;
+    padding-bottom: 0.5em;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #424242;
+}
+.rightArea .info .infoArea .s2 {
+    display: inline-block;
+    padding: 1em 0.3em 0 0;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+/* skills */
+.rightArea .skills {
+    margin-bottom: 5em;
+}
+.rightArea .skills .skillArea {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -moz-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.rightArea .skills .skBox {
+    width: 19%;
+    height: 0;
+    padding-bottom: 22%;
+    cursor: pointer;
+}
+.rightArea .skills .skBox .imgArea {
+    width: 90%;
+    height: 0;
+    padding-bottom: 90%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #e9e9e9;
+    border-radius: 50%;
+}
+.rightArea .skills .skBox .imgArea img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    background: #efefef;
+    padding: 2em;
+    border-radius: 50%;
+}
+.rightArea .skills .skBox .p1 {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 500;
+    display: block;
+    color: #181818;
+    padding-top: 1em;
+}
+
+/* slide */
+.slideArea {
+    width: 100%;
+}
+.slideArea .owl-prev, .slideArea .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slideArea .owl-prev {
+    left: 10%;
+}
+.slideArea .owl-next {
+    right: 10%;
+}
+.slideArea .owl-nav span {
+    font-size: 3em;
+}
+.slideArea .item {  
+    width: 100%;
+}
+.slideArea img {
+    display: block;
+    width: 55% !important;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    border-bottom: 0;
+}
+.slideArea .txtArea {
+    display: block;
+    width: 55% !important;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    padding: 2em;
+}
+.slideArea .txtArea h1 {
+    font-size: 2em;
+    padding: 0 0 0.3em;
+}
+.slideArea .txtArea p {
+    font-size: 1em;
+    word-break: keep-all;
+}
+.slideArea .txtArea a {
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 0.5em 3em;
+    display: inline-block;
+    color: #000;
+    margin-top: 1em;
+}
+.slideArea .txtArea a:hover {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+}

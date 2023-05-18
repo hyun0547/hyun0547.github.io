@@ -1,247 +1,161 @@
 <!DOCTYPE html>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-  <head>
-    <title>손현수 포트폴리오</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
-  </head>
-  <body class="is-preload">
-    <header id="header" class="home-header">
-      <a href="index.html" class="title">HOME</a>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="intro.html">ABOUT ME</a></li>
-        </ul>
-      </nav>
-    </header>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
 
-    <!-- Sidebar -->
-    <section id="sidebar">
-      <div class="inner">
-        <nav>
-          <ul>
-            <li><a href="#intro">Welcome</a></li>
-            <li><a href="#one">skills</a></li>
-            <li><a href="#two">what i do</a></li>
-            <li><a href="#three">profile</a></li>
-          </ul>
-        </nav>
-      </div>
-    </section>
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/owl.carousel.min.css" rel="stylesheet" />
 
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Intro -->
-      <section id="intro" class="wrapper style1 fullscreen fade-up">
-        <div class="inner">
-          <h1>도전하는 개발자</h1>
-          <p></p>
-          <ul class="actions">
-            <li class="about-me">
-              <a href="./intro.html" class="button scrolly">about me</a>
-              <span>#메타인지</span>
-              <span>#커뮤니케이션</span>
-              <span>#ENTJ</span>
-              <span>#전공중인비전공자</span>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+</head>
+<body>
+    <div id="warp" class="flex">
 
-      <!-- One -->
-      <section id="one" class="wrapper style3 fade-up">
-        <div class="inner">
-          <h2>skills</h2>
-          <div class="features">
-            <section>
-              <img src="./images/html.png" alt="" />
-              <h3>HTML, CSS</h3>
-              <p>
-                box의 position, display flex <br />
-                모작을 통한 기본적인 web publishing 숙지
-              </p>
-            </section>
-            <section>
-              <img src="./images/javascript.png" alt="" />
-              <h3>JavaScript</h3>
-              <p>
-                Element와 Event에 대한 이해, <br />
-                AJAX 사용법 숙지,<br />API 사용법 숙지 <br />
-                <a href="https://wiken.io/b/1095/1096"
-                  >Vanila JavaScript를 이용한 웹 어플</a
-                >
-              </p>
-            </section>
-            <section>
-              <img src="./images/java.png" alt="" />
-              <h3>JAVA</h3>
-              <p>OOP에 대한 이해 <br /></p>
-            </section>
-            <section>
-              <img src="./images/jsp.png" alt="" style="margin-top: 20px" />
-              <h3>JSP</h3>
-              <p>servlet과 JDBC 작성법 숙지</p>
-            </section>
-            <section>
-              <img src="./images/spring.png" alt="" />
-              <h3>Spring</h3>
-              <p>MVC구조에 대한 이해, AOP에 대한 학습</p>
-            </section>
-            <section>
-              <img src="./images/c++.png" alt="" />
-              <h3>C++</h3>
-              <p>pointer 사용법 숙지, 자료구조에 대한 학습</p>
-            </section>
-          </div>
-        </div>
-      </section>
-      <!-- Two -->
+        <!-- leftArea -->
+        <div class="leftArea">
 
-      <section id="two" class="wrapper style2 spotlights">
-        <section>
-          <a
-            onclick="window.open('http://ryd.ssony.me')"
-            href=""
-            class="image"
-            ><img
-              src="https://i.postimg.cc/yx0bNfSV/ezgif-com-gif-maker.gif"
-              alt=""
-              data-position="center center"
-          /></a>
-          <div class="content">
-            <div class="inner">
-              <h2>RYD</h2>
-              <p>
-                Spring을 이용한 CRUD 게시판 프로젝트 <br />
-                MVC구조에 대한 이해 <br />
-                네이버 클라우드 centOS를 통한 배포 <br />
-                이미지를 클릭하면 해당 페이지로 이동합니다.
-              </p>
-              <ul class="actions">
-                <li>
-                  <a
-                    href=""
-                    onclick="window.open('https://wiken.io/ken/2831')"
-                    class="button"
-                    >기술서</a
-                  >
-                </li>
-              </ul>
+            <!-- profile -->
+            <div class="profile">
+                <div class="imgArea">
+                    <img src="./img/profile.jpg" />
+                 </div>
+                 <div class="txtArea">
+                    <p class="tit">PROFILE</p>
+
+                    <ul>
+                        <li>Phone <span class="val">01062960547</span></li>
+                        <li>Email <span class="val">hyun0547@gmail.com</span></li>
+                        <li>Address <span class="val">대전광역시 유성구 신성동</span></li>
+                    </ul>
+                 </div>
             </div>
-          </div>
-        </section>
-        <section>
-          <a
-            onclick="window.open('https://wiken.io/ken/1111')"
-            href=""
-            class="image"
-            ><img
-              src="https://i.postimg.cc/X7j9DH79/2021-12-19-1.png"
-              alt=""
-              data-position="top center"
-          /></a>
-          <div class="content">
-            <div class="inner">
-              <h2>WIKI</h2>
-              <p>
-                학습내용들을 정리하며 리마인드 <br />
-                같은 오류를 범하지 않기 위한 기록 <br />
-                유용한 자료 수집 정리 <br />
-                이미지를 클릭하면 해당 페이지로 이동합니다.
-              </p>
+            <!-- //profile -->
+
+            <!-- education -->
+            <div class="education">
+                 <div class="txtArea">
+                    <p class="tit">EDUCATION</p>
+
+                    <ul>
+                        <li>2032.09 ~ <span class="val">방송통신대학교 컴퓨터학과</span></li>
+                        <li>2021.03 ~ 2021.12 <span class="val">SBS컴퓨터아카데미 교육이수</span></li>
+                    </ul>
+                 </div>
             </div>
-          </div>
-        </section>
-        <section>
-          <a
-            onclick="window.open('https://www.youtube.com/watch?v=kqwUHhMxLc0&list=PLkl9-1vIXqp11PiiQWr2gBNLXJf2TQid7')"
-            href=""
-            class="image"
-            ><img
-              src="https://i.postimg.cc/hvkvgGRJ/2021-12-19-3.png"
-              alt=""
-              data-position="25% 25%"
-          /></a>
-          <div class="content">
-            <div class="inner">
-              <h2>youtube 스터디 로그</h2>
-              <p>
-                매일 공부한 영상을 기록 <br />
-                성취감 및 동기부여 <br />
-                성실함 어필 <br />
-                이미지를 클릭하면 해당 페이지로 이동합니다.
-              </p>
-            </div>
-          </div>
-        </section>
-      </section>
-      <!-- Three -->
-      <section id="three" class="wrapper style1 fade-up">
-        <div class="inner">
-          <h2>profile</h2>
-          <div class="split style1">
-            <section class="profile-box">
-              <div class="profile-img">
-                <img src="./images/profile.jpg" alt="" />
-              </div>
-              <div class="profile-txt">
-                <p>손현수</p>
-                <p>1995.03.02</p>
-                <p>방송통신대학교 컴퓨터과학과 2021.09 ~</p>
-                <p>SBS컴퓨터아카데미 교육이수 2021.03 ~ 2021.12</p>
-              </div>
-            </section>
-            <section>
-              <ul class="contact">
-                <li>
-                  <h3>Address</h3>
-                  <span>대전광역시 유성구 신성동</span>
-                </li>
-                <li>
-                  <h3>Email</h3>
-                  <a href="mailto:hyun0547@gmail.com">hyun0547@gmail.com</a>
-                </li>
-                <li>
-                  <h3>Phone</h3>
-                  <span>010-6296-0547</span>
-                </li>
-              </ul>
-            </section>
-          </div>
+            <!-- //education -->
+
+            <!-- career -->
+            <div class="career">
+                <div class="txtArea">
+                   <p class="tit">CAREER</p>
+
+                   <ul>
+                       <li>2022.01 ~ 2023.05 <span class="val">지오넷 시스템 엔지니어</span></li>
+                   </ul>
+                </div>
+           </div>
+           <!-- //career -->
         </div>
-      </section>
+        <!-- //leftArea -->
+
+        <!-- rightArea -->
+        <div class="rightArea">
+
+            <!-- info -->
+            <div class="info">
+                <p class="tit">ABOUT ME</p>
+                <p class="infoArea">
+                    <span class="s1">1955년생이며 2021년에 개발 공부를 시작한 손현수입니다.</span>
+
+                    공부를 하면서 때로는 기대에 못 미치는 성과로 자책을 할 때도, 작은 문제에 부딪혀 좌절하기도 합니다. <br>
+                    하지만 자책은 나 자신에게 승부욕을 불어 넣고, 좌절은 또 다른 문제에 부딪혔을 때 해결해 낼 수 있는 문제 해결 능력을 키워줍니다. <br>
+                    어려움에 부딪히고 가끔은 좋은 능력을 발휘하지 못 하더라도 포기하지 않고 오늘보다 내일 더 나은 사람이 되기 위해 <br>
+                    <span class="s2">도전하는 개발자</span>입니다.
+                </p>
+            </div>
+            <!-- //info -->
+
+            <!-- skills -->
+            <div class="skills">
+                <p class="tit2">SKILLS</p>
+                <div class="skillArea">
+                    <div class="skBox type1">
+                        <div class="imgArea"><img src="./img/java.png" /></div>
+                        <p class="p1">JAVA</p>
+                    </div>
+                    <div class="skBox type2">
+                        <div class="imgArea"><img src="./img/javascript.png" /></div>
+                        <p class="p1">JAVASCRIPT</p>
+                    </div>
+                    <div class="skBox type3">
+                        <div class="imgArea"><img src="./img/flutter.png" /></div>
+                        <p class="p1">FLUTTER</p>
+                    </div>
+                    <div class="skBox type4">
+                        <div class="imgArea"><img src="./img/aws.png" /></div>
+                        <p class="p1">AWS</p>
+                    </div>
+                    <div class="skBox type5">
+                        <div class="imgArea"><img src="./img/linux.png" /></div>
+                        <p class="p1">LINUX</p>
+                    </div>
+                </div>
+            </div>
+            <!-- //skills -->
+
+            <!-- Portfolio -->
+            <div class="Portfolio">
+                <p class="tit2">PORTFOLIO</p>
+                
+                <div class="slideArea">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="https://i.postimg.cc/yx0bNfSV/ezgif-com-gif-maker.gif" alt="" data-position="center center">
+                            <div class="txtArea">
+                                <h1>RYD</h1>
+                                <p>
+                                    Spring을 이용한 CRUD 게시판 프로젝트
+                                    MVC구조에 대한 이해
+                                    네이버 클라우드 centOS를 통한 배포
+                                    이미지를 클릭하면 해당 페이지로 이동합니다.
+                                </p>
+                                <a href="https://wiken.io/ken/2831" target="_blank">기술서</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="https://i.postimg.cc/yx0bNfSV/ezgif-com-gif-maker.gif" alt="" data-position="center center">
+                            <div class="txtArea">
+                                <h1>WIKE</h1>
+                                <p>
+                                    학습내용들을 정리하며 리마인드
+                                    같은 오류를 범하지 않기 위한 기록
+                                    유용한 자료 수집 정리
+                                    이미지를 클릭하면 해당 페이지로 이동합니다.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- //Portfolio -->
+
+        </div>
+        <!-- //rightArea -->
     </div>
+</body>
 
-    <!-- Footer -->
-    <footer id="footer" class="wrapper style1-alt">
-      <div class="inner">
-        <ul class="menu">
-          <li>&copy; Untitled. All rights reserved.</li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
-      </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    items:1,
+})
+</script>
 </html>
