@@ -351,10 +351,34 @@ a {
     border: 1px solid #e1e1e1;
     border-bottom: 0;
 }
+.slideArea video {
+    display: inline-block;
+    width: 49% !important;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    border-bottom: 0;
+    z-index: 0;
+}
+.slideArea .video-box {
+    display: block;
+    width: 55% !important;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    border-bottom: 0;
+    z-index: 0;
+}
 .slideArea .txtArea {
     display: block;
     width: 55% !important;
     margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    padding: 2em;
+}
+.slideArea .video-box .txtArea {
+    display: inline-block;
+    width: 51% !important;
+    height: 100%;
     border: 1px solid #e1e1e1;
     padding: 2em;
 }
