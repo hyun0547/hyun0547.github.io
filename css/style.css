@@ -432,3 +432,12 @@ a {
     background: #000;
     color: #fff;
 }
+
+.code-snippet {
+    font-family: "Consolas", "monospace";
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
