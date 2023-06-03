@@ -267,10 +267,27 @@ a {
     font-weight: 500;
     font-size: 1.3em;
 }
+.rightArea .info .resume {
+    display: block;
+    font-size: 0.8em;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 2px;
+    margin-top: 2em;
+    color: #181818;
+    border: 1px solid #181818;
+}
+.rightArea .info .resume:hover {
+    background: #181818;
+    color: #fff;
+    border: 1px solid #181818;
+}
 
 /* skills */
 .rightArea .skills {
-    margin-bottom: 5em;
+    margin-bottom: 2em;
 }
 .rightArea .skills .skillArea {
     width: 80%;
@@ -313,7 +330,7 @@ a {
     height: 90%;
     object-fit: cover;
     background: #efefef;
-    padding: 2em;
+    padding: 1em;
     border-radius: 50%;
 }
 .rightArea .skills .skBox .p1 {
@@ -390,11 +407,17 @@ a {
 }
 .slideArea .txtArea h1 {
     font-size: 2em;
-    padding: 0 0 0.3em;
+    padding: 0 0 0.75em;
 }
 .slideArea .txtArea p {
     font-size: 1em;
     word-break: keep-all;
+    padding-bottom: 0.5em;
+}
+.slideArea .txtArea .hashTag {
+    font-size: 0.8em;
+    display: block;
+    color: #9a9a9a;
 }
 .slideArea .txtArea a {
     border: 1px solid #000;
